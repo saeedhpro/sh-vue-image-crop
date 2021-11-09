@@ -1,6 +1,6 @@
 {
   "name": "sh-vue-image-crop",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "a vue plugin for image crop and upload",
   "main": "upload-3.vue",
   "scripts": {
