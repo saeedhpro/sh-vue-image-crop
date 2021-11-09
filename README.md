@@ -1,25 +1,17 @@
-# vue-image-crop-upload
-## [中文文档](https://github.com/dai-siki/vue-image-crop-upload/blob/master/README-zh.md).
+# sh-vue-image-crop
 
 A beautiful vue component for image crop and upload.
 
 **Notice**: This component is designed for pc, **not recommended for use on the mobile side**.
 
-[![GitHub issues](https://img.shields.io/github/issues/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload/issues)
-[![GitHub forks](https://img.shields.io/github/forks/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload/network)
-[![GitHub stars](https://img.shields.io/github/stars/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload/stargazers)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/dai-siki/vue-image-crop-upload.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+[![GitHub issues](https://img.shields.io/github/issues/saeedhpro/sh-vue-image-crop.svg)](https://github.com/saeedhpro/sh-vue-image-crop/issues)
+[![GitHub forks](https://img.shields.io/github/forks/saeedhpro/sh-vue-image-crop.svg)](https://github.com/saeedhpro/sh-vue-image-crop/network)
+[![GitHub stars](https://img.shields.io/github/stars/saeedhpro/sh-vue-image-crop.svg)](https://github.com/saeedhpro/sh-vue-image-crop/stargazers)
 
-[![NPM](https://nodei.co/npm/vue-image-crop-upload.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-image-crop-upload/)
 
 ## Change log
 #### @3.0.0
 - Compatible vue3
-
-
-## Demo
-[Click me](http://dai-siki.github.io/vue-image-crop-upload/example-3/demo.html).
-
 
 ## Screenshot
 ![screenshot](screenshot/1.png)
@@ -30,7 +22,7 @@ IE10+
 ## Install
 #### npm
 ```shell
-$ npm install vue-image-crop-upload
+$ npm install sh-vue-image-crop
 ```
 
 
@@ -64,7 +56,7 @@ $ npm install vue-image-crop-upload
 | cropUploadFail    | upload fail, params( status, field )    |
 
 #### Language package
-[view details](http://dai-siki.github.io/vue-image-crop-upload/utils/language.js).
+[view details](http://saeedhpro.github.io/sh-vue-image-crop/utils/language.js).
 
 #### Example Of "langExt"
 ```js
@@ -110,7 +102,7 @@ $ npm install vue-image-crop-upload
 <script>
 	import 'babel-polyfill'; // es6 shim
 	import Vue from 'vue';
-	import myUpload from 'vue-image-crop-upload';
+	import myUpload from 'sh-vue-image-crop';
 
 	new Vue({
 		el: '#app',
@@ -190,7 +182,7 @@ $ npm install vue-image-crop-upload
 <script>
 	import 'babel-polyfill'; // es6 shim
 	import Vue from 'vue';
-	import myUpload from 'vue-image-crop-upload/upload-2.vue';
+	import myUpload from 'sh-vue-image-crop/upload-2.vue';
 
 	new Vue({
 		el: '#app',
@@ -268,7 +260,7 @@ $ npm install vue-image-crop-upload
 <script>
 	import 'babel-polyfill'; // es6 shim
 	import Vue from 'vue';
-	import myUpload from 'vue-image-crop-upload/upload-1.vue';
+	import myUpload from 'sh-vue-image-crop/upload-1.vue';
 
 	new Vue({
 		el: '#app',
